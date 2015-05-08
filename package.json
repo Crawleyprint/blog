@@ -21,6 +21,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/crawleyprint/blog#readme",
   "devDependencies": {
-    "metalsmith": "^1.7.0"
+    "metalsmith": "^1.7.0",
+    "metalsmith-markdown": "^0.2.1"
   }
 }
