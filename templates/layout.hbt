@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ title }} | crawleyprint.io</title>
+  <link rel="stylesheet" href="css/index.css" media="all">
 </head>
 <body>
   {{{ contents }}}
