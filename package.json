@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./build.js"
+    "build": "node ./build.js",
+    "build:watch": "watch 'npm run build'"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "metalsmith": "^1.7.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-sass": "^0.7.0",
-    "metalsmith-templates": "^0.7.0"
+    "metalsmith-templates": "^0.7.0",
+    "watch": "^0.16.0"
   }
 }
