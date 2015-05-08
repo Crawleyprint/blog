@@ -1,0 +1,26 @@
+{
+  "name": "crawleyprint-io-blog",
+  "version": "0.0.1",
+  "description": "My thoughts on life, development and everything else",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/crawleyprint/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "development",
+    "crawleyprint",
+    "metalsmith"
+  ],
+  "author": "Mladen Stepanić <crawleyprint@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/crawleyprint/blog#readme",
+  "devDependencies": {
+    "metalsmith": "^1.7.0"
+  }
+}
