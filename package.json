@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./build.js",
-    "build:watch": "watch 'npm run build'"
+    "build": "node ./build.js"
   },
   "repository": {
     "type": "git",
@@ -22,12 +21,15 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/crawleyprint/blog#readme",
   "devDependencies": {
+    "connect": "^3.3.5",
+    "connect-livereload": "^0.5.3",
     "handlebars": "^3.0.3",
     "inuit-starter-kit": "^0.2.9",
     "metalsmith": "^1.7.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-sass": "^0.7.0",
     "metalsmith-templates": "^0.7.0",
-    "watch": "^0.16.0"
+    "metalsmith-watch": "^1.0.1",
+    "serve-static": "^1.9.2"
   }
 }
